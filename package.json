@@ -1,0 +1,23 @@
+{
+  "name": "concordia",
+  "version": "0.0.0",
+  "description": "",
+  "bin": {
+    "concordia": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json && tsc-alias -p ./tsconfig.json",
+    "start": "npm run build && node ./dist/index.js"
+  },
+  "dependencies": {
+    "@harmoniclabs/cbor": "^1.1.1",
+    "@harmoniclabs/obj-utils": "^1.0.0",
+    "@harmoniclabs/uint8array-utils": "^1.0.0",
+    "@harmoniclabs/ouroboros-miniprotocols-ts": "^0.0.1",
+    "@types/node": "^20.1.7"
+  },
+  "devDependencies": {},
+  "author": "Harmonic Laboratories",
+  "license": "Apache-2.0",
+  "funding": "https://github.com/sponsors/HarmonicLabs"
+}
