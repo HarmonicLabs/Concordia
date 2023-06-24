@@ -1,7 +1,7 @@
 <div align="center">
     <h1>Concordia</h1>
     <hr />
-        <h3 align="center" style="border-bottom: none">`cardano-node` typescript implementation</h3>
+        <h3 align="center" style="border-bottom: none"><code>cardano-node</code> typescript implementation</h3>
         <img alt="GitHub" src="https://img.shields.io/github/license/HarmonicLabs/Concordia" />
     <hr/>
 </div>
